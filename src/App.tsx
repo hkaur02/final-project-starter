@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Counter } from "./counter";
 
 function App(): JSX.Element {
     return (
@@ -9,7 +10,7 @@ function App(): JSX.Element {
                 <img src={logo} className="App-logo" alt="logo" />
                 UD CIS Scheduler
                 <p>
-                    Hello World
+                    Edit <code>src/App.tsx</code> and save to reload.
                 </p>
             </header>
         </div>
